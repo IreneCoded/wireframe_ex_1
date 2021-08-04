@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+
+
+
+main{
+    
+     width: 80vw;
+     margin: 0 auto;
+}
+
+header{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img{
+    max-height: 150px;
+}
+
+.titel{
+    display: flex;
+}
+
+header>input, header>input:focus, header>input:active, input[type="text" i], input[type="text" i]:active  { 
+    display: inline-block;
+    height: 50px;
+    margin-top: 25px;
+    padding: 25px;
+    border: 1px darkslategrey solid;
+    width: 300px;
+    border-radius: 25px ;}
+
+    header>input:focus{
+        border: none;
+    }
+
+    header>input:active {background-color: deeppink}
+
+.logging{
+
+    color:#c5c5c5;
+    background-color: darkslategrey;
+    padding: 10px;
+    height: 55px;
+    
+    border-radius: 30px ;
+margin-left: -29px;
+}
+
+nav{
+    border-radius: 15px;
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+
+
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+display: flex;
+}
+
+li {
+
+}
+
+nav a {
+display: block;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+color: black;
+}
+button, button a {
+    background-color: rgba(31, 31, 31, 0.671);
+    border-radius: 9px;
+    color: white;
+}
+
+#content {
+    
+display: grid;
+grid-template-columns: auto auto auto auto;
+grid-gap: 20px;
+padding: 20px;
+
+}
+
+.neumorpho, nav {
+
+    border-radius: 15px;
+    background: linear-gradient(145deg, #d1d1d1, #f8f8f8);
+    box-shadow:  20px 20px 60px #c5c5c5,
+         -20px -20px 60px #ffffff;
+    padding: 25px;
+}
+
+.neumorpho > img{
+    border-radius: 8px;
+    width: 100%;        
+    object-fit: cover;
+
+}
+
+footer {
+    min-height: 20vh;
+    background: linear-gradient(145deg, #d1d1d1, #f8f8f8);
+}
